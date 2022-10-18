@@ -74,22 +74,17 @@ WSGI_APPLICATION = 'Blog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'roroblogdb',
-#         'USER': 'postgres',
-#         'PASSWORD': 'mohanad124578',
-#         'HOST': '127.0.0.1',
-#         'PORT': '5432',
-#     }
-# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dcrnovtagrtmc3',
+        'USER': 'zfrycjozebutnn',
+        'PASSWORD': 'db376f8e25b8ed9eeba4cf13a0b05a811536f831efa559d10bfeb0a0e03400db',
+        'HOST': 'ec2-44-199-22-207.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
