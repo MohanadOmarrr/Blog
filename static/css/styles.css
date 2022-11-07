@@ -1605,31 +1605,37 @@ progress {
   }
 
   .col-xl-7 {
+    text-align: right;
     flex: 0 0 auto;
     width: 58.33333333%;
   }
 
   .col-xl-8 {
+    text-align: right;
     flex: 0 0 auto;
     width: 66.66666667%;
   }
 
   .col-xl-9 {
+    text-align: right;
     flex: 0 0 auto;
     width: 75%;
   }
 
   .col-xl-10 {
+    text-align: right;
     flex: 0 0 auto;
     width: 83.33333333%;
   }
 
   .col-xl-11 {
+    text-align: right;
     flex: 0 0 auto;
     width: 91.66666667%;
   }
 
   .col-xl-12 {
+    text-align: right;
     flex: 0 0 auto;
     width: 100%;
   }
