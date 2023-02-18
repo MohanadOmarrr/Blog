@@ -78,11 +78,9 @@ WSGI_APPLICATION = 'Blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dcrnovtagrtmc3',
-        'USER': 'zfrycjozebutnn',
-        'PASSWORD': 'db376f8e25b8ed9eeba4cf13a0b05a811536f831efa559d10bfeb0a0e03400db',
-        'HOST': 'ec2-44-199-22-207.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'NAME': 'rorodb',
+        'USER': 'postgres',
+        'PASSWORD': 'mohanad124578',
     }
 }
 
