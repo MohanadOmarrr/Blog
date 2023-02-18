@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'Blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'rorodb',
+        'NAME': 'roroblogdb',
         'USER': 'postgres',
         'PASSWORD': 'mohanad124578',
     }
